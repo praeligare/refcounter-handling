@@ -42,23 +42,25 @@ Here's the website: https://www.mingw-w64.org/
 Don't forget to check if you're downloading the one that's compatible with your system!
 
 Download this folder to your machine.
-Open the command prompt (or cmd, it's a program that reads commands you type in text form and executes what you tell it to)
+Open the command prompt (or cmd, it's a program that reads commands you type in text form and executes them).
 A little tip: be careful before pressing enter there, never copy and paste commands you're not sure of. Ideally, always check what you're running beforehand.
 
-How to open cmd on Windows: windows button to open the app tray, type in 'cmd' and select it when it comes up.
+How to open cmd on Windows: Windows button to open the app tray, then type in 'cmd' in the search bar and select it when it comes up in the suggested options.
 Its icon looks like a small black screen.
 
 Et voilà, you're in.
 
-Just kidding, but almost. When you open up the command prompt, you're executing commands on the directory it's on by default. The first thing you need to do is to navigate to where you saved the folder, then into it. That will most likely be something like C:\Users\<YOUR_USER_HERE>\Downloads\refcounter-handling
+Just kidding, but almost. When you open up the command prompt, you're executing commands on the directory it's on by default. 
+
+The first thing you need to do is to navigate into the folder you downloaded. The path for that will most likely be something like C:\Users\<YOUR_USER_HERE>\Downloads\refcounter-handling
 
 The command to move around is "cd". Moving to the downloaded folder is 
 
-  ###### cd <PATH>
+  ###### cd <YOUR_PATH_HERE>
 
 Don't forget to change <YOUR_USER_HERE> in the path to the name you see on your user folder!
   
-There, NOW you're in. Time to run. With GCC, it's pretty simple. You run a command to translate the C program to a program the computer understands (that's called compiling). The program the computer knows how to run is called an executable. Now you can run it! That's two commands. Here you go:
+There, NOW you're in. Time to run. With GCC, it's pretty simple. You run a command to translate the C program to something the computer understands (that's called compiling). The file the computer knows how to run is called an executable. You have to generate one, then you can run it! That's two commands. Here you go:
   
   ###### gcc -o <NAME_FOR_THE_NEW_EXECUTABLE_HERE> automaticrefcounting.c
   ###### NAME_FOR_THE_NEW_EXECUTABLE_HERE.exe
@@ -68,6 +70,7 @@ That's it! You just compiled and ran a C program.
 ## Troubleshooting
 
 In case you run into problems running commands, make sure you're in the right place (directory). 
-Make sure you're not pressing the spacebar inside '-o', these things in commands we call options, and the letters they contain follow the hyphen without spaces. 
+
+Make sure you're not pressing the spacebar inside '-o', these things in commands we call options, and they must not contain spaces. 
 
 If you're still having trouble, do what we all do at some point: copy the error message, paste it into your preferred search engine and try to figure it out. Sounds scary at first, but that's exactly how you get better. Good searching and safe travels :-)
