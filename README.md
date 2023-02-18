@@ -31,3 +31,10 @@ Almost none, really.
   A little C knowledge, in case you feel like moving stuff around
 
   A working C compiler, of course :-)
+
+## How to run this
+
+Skip this part if you've compiled C before.
+This part is for everyone who hasn't. I remember struggling a lot in the beginning. This is so you don't have to :-)
+
+Download 
