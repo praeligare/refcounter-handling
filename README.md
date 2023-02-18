@@ -1,6 +1,6 @@
 # refcounter-handling
 
-## Like we're 5
+## Introduction
 
 A computer uses different types of storage for different purposes.
 
@@ -31,3 +31,46 @@ Almost none, really.
   A little C knowledge, in case you feel like moving stuff around
 
   A working C compiler, of course :-)
+
+## How to run this
+
+Skip this part if you've compiled C before.
+This part is for everyone who hasn't. I remember struggling a lot in the beginning, especially doing things on the command line. This is so you don't have to :-)
+
+Download any C compiler - I used GCC. It comes with MinGW, a tool pack.
+Here's the website: https://www.mingw-w64.org/
+Don't forget to check if you're downloading the one that's compatible with your system!
+
+Download this folder to your machine.
+Open the command prompt (or cmd, it's a program that reads commands you type in text form and executes them).
+A little tip: be careful before pressing enter there, never copy and paste commands you're not sure of. Ideally, always check what you're running beforehand.
+
+How to open cmd on Windows: Windows button to open the app tray, then type in 'cmd' in the search bar and select it when it comes up in the suggested options.
+Its icon looks like a small black screen.
+
+Et voilà, you're in.
+
+Just kidding, but almost. When you open up the command prompt, you're executing commands on the directory it's on by default. 
+
+The first thing you need to do is to navigate into the folder you downloaded. The path for that will most likely be something like C:\Users\<YOUR_USER_HERE>\Downloads\refcounter-handling
+
+The command to move around is "cd". Moving to the downloaded folder is 
+
+  ###### cd <YOUR_PATH_HERE>
+
+Don't forget to change <YOUR_USER_HERE> in the path to the name you see on your user folder!
+  
+There, NOW you're in. Time to run. With GCC, it's pretty simple. You run a command to translate the C program to something the computer understands (that's called compiling). The file the computer knows how to run is called an executable. You have to generate one, then you can run it! That's two commands. Here you go:
+  
+  ###### gcc -o <NAME_FOR_THE_NEW_EXECUTABLE_HERE> automaticrefcounting.c
+  ###### NAME_FOR_THE_NEW_EXECUTABLE_HERE.exe
+
+That's it! You just compiled and ran a C program. 
+
+## Troubleshooting
+
+In case you run into problems running commands, make sure you're in the right place (directory). 
+
+Make sure you're not pressing the spacebar inside '-o', these things in commands we call options, and they must not contain spaces. 
+
+If you're still having trouble, do what we all do at some point: copy the error message, paste it into your preferred search engine and try to figure it out. Sounds scary at first, but that's exactly how you get better. Good searching and safe travels :-)
