@@ -1,6 +1,6 @@
 # refcounter-handling
 
-## Like we're 5
+## Introduction
 
 A computer uses different types of storage for different purposes.
 
