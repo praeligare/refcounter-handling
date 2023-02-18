@@ -54,14 +54,14 @@ Just kidding, but almost. When you open up the command prompt, you're executing 
 
 The command to move around is "cd". Moving to the downloaded folder is 
 
-  ######cd <PATH>
+  ###### cd <PATH>
 
 Don't forget to change <YOUR_USER_HERE> in the path to the name you see on your user folder!
   
 There, NOW you're in. Time to run. With GCC, it's pretty simple. You run a command to translate the C program to a program the computer understands (that's called compiling). The program the computer knows how to run is called an executable. Now you can run it! That's two commands. Here you go:
   
-  ######gcc -o <NAME_FOR_THE_NEW_EXECUTABLE_HERE> automaticrefcounting.c
-  ######NAME_FOR_THE_NEW_EXECUTABLE_HERE.exe
+  ###### gcc -o <NAME_FOR_THE_NEW_EXECUTABLE_HERE> automaticrefcounting.c
+  ###### NAME_FOR_THE_NEW_EXECUTABLE_HERE.exe
 
 That's it! You just compiled and ran a C program. 
 
